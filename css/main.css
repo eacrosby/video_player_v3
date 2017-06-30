@@ -29,9 +29,28 @@ p {
 }
 
 .videoPlayer {
-    margin: 0 auto;
+    text-align: center;
 }
 
 video {
     width: 320px;
+}
+
+@media (min-width: 768px) {
+    video {
+        width: 720px;
+    }
+    
+    .videoPlayer {
+        text-align: center;
+    }
+    
+    .captionArea {
+        width: 720px;
+        margin: 0 auto;
+    }
+    
+    p {
+        line-height: 2em;
+    }
 }
