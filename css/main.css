@@ -7,12 +7,31 @@ BASE STYLES
 }
 
 #wrapper {
-    width: 75%;
+    width: 100%;
     margin: 8px auto;
-    background-color: lightgrey;
 }
 
 h2 {
     font-family: 'Roboto Slab';
     padding: 10px 15px 6px;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 20px 15px 0 15px;
+}
+
+.highlight {
+    color: orange;
+}
+
+.videoPlayer {
+    margin: 0 auto;
+}
+
+video {
+    width: 320px;
 }
