@@ -1,14 +1,13 @@
-/**************************
-BASE STYLES
-**************************/
-
 * {
   box-sizing: border-box;
 }
 
 #wrapper {
-    width: 100%;
     margin: 8px auto;
+}
+
+.videoPlayer {
+    width 320px;
 }
 
 h2 {
@@ -22,35 +21,13 @@ p {
     line-height: 1.5em;
     margin: 0 auto;
     padding: 20px 15px 0 15px;
+/*    width: 80%;*/
 }
 
 .highlight {
     color: orange;
 }
 
-.videoPlayer {
-    text-align: center;
-}
-
-video {
-    width: 320px;
-}
-
-@media (min-width: 768px) {
-    video {
-        width: 720px;
-    }
-    
-    .videoPlayer {
-        text-align: center;
-    }
-    
-    .captionArea {
-        width: 720px;
-        margin: 0 auto;
-    }
-    
-    p {
-        line-height: 2em;
-    }
+.captionArea {
+    margin: 0 auto;
 }
