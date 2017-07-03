@@ -7,7 +7,9 @@
 }
 
 .videoPlayer {
-    width 320px;
+    margin: 0 auto;
+    display: block;
+    width: 480px;
 }
 
 h2 {
@@ -30,4 +32,15 @@ p {
 
 .captionArea {
     margin: 0 auto;
+    width: 480px;
+}
+
+@media (min-width: 768px) {
+    .videoPlayer {
+        width: 720px;
+    }
+    
+    .captionArea {
+        width: 720px;
+    }
 }
