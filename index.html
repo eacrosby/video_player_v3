@@ -16,7 +16,7 @@
   <body>
       <div id="wrapper">
         <div class="videoPlayer">
-            <video class="mejs__player" style="max-width: 100%;">
+            <video class="mejs__player" style="max-width: 100%;" controls features="['playpause', 'progress', 'volume', 'fullscreen']">
                 <source src="video/video.mp4" type="video/mp4">
                 <source src="video/video.ogg" type="video/ogg">
                 <track src="mockups/captions.vtt" kind="captions" srclang="en" label="English">
@@ -24,7 +24,7 @@
         </div>
         <div class="captionArea">
             <p>
-                <span id="c_0">Now that we've looked at the architecture of the internet, let's see how you might </span>
+                <span id="c_0" data-start="00:00:00.240" data-end="00:00:04.130">Now that we've looked at the architecture of the internet, let's see how you might </span>
                 <span id="c_1">connect your personal devices to the internet inside your house. </span>
                 <span id="c_2">Well there are many ways to connect to the internet, and </span>
                 <span id="c_3">most often people connect wirelessly. </span>
