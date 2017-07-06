@@ -44,3 +44,7 @@ p {
         width: 720px;
     }
 }
+
+span::cue {
+    color: orange;
+}
