@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Interactive Video Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +11,28 @@
     <script src="http://cdn.jsdelivr.net/npm/mediaelement@4.2.2/build/mediaelement-and-player.min.js"></script>
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/mediaelement@4.2.2/src/css/mediaelementplayer.css">
     <link rel="stylesheet" href="css/main.css">
-  </head>
+</head>
 
-  <body>
-      <div id="wrapper">
+<body>
+    <div id="wrapper">
         <div class="videoPlayer">
-            <video class="mejs__player" style="max-width: 100%;" controls features="['playpause', 'progress', 'volume', 'fullscreen']">
+            <video id="myVideo" class="mejs__player" style="max-width: 100%;" controls features="['playpause', 'progress', 'volume', 'fullscreen']">
                 <source src="video/video.mp4" type="video/mp4">
                 <source src="video/video.ogg" type="video/ogg">
                 <track src="mockups/captions.vtt" kind="captions" srclang="en" label="English">
-            </video>  
+            </video>
         </div>
         <div class="captionArea">
-            <p>
+            <p>Playback position: <span id="position"></span>
+               <br>
+               <br>
                 <span id="c_0" data-start="00:00:00.240" data-end="00:00:04.130">Now that we've looked at the architecture of the internet, let's see how you might </span>
                 <span id="c_1">connect your personal devices to the internet inside your house. </span>
                 <span id="c_2">Well there are many ways to connect to the internet, and </span>
                 <span id="c_3">most often people connect wirelessly. </span>
+                <span id="c_4">Let's look at an example of how you can connect to the internet. </span>
             </p>
             <p>
-                <span id="c_4">Let's look at an example of how you can connect to the internet. </span>
                 <span id="c_5">If you live in a city or a town, you probably have a coaxial cable for </span>
                 <span id="c_6">cable Internet, or a phone line if you have DSL, running to the outside of </span>
                 <span id="c_7">your house, that connects you to the Internet Service Provider, or ISP. </span>
@@ -46,7 +48,8 @@
                 <span id="c_15">A few common residential modems are DSL or </span>
             </p>
         </div>
-      </div>
-      <script src="js/app.js"></script>
-    </body>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
 </html>
