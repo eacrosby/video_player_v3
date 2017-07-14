@@ -8,19 +8,24 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--
     <script src="http://cdn.jsdelivr.net/npm/mediaelement@4.2.2/build/mediaelement-and-player.min.js"></script>
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/mediaelement@4.2.2/src/css/mediaelementplayer.css">
+-->
+   <script src="jwplayer-master/src/js/jwplayer.js"></script>	
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div id="player-container">
         <div id="player">
-            <video id="myVideo" class="mejs__player" style="max-width: 100%;" controls features="['playpause', 'progress', 'volume', 'fullscreen']">
+<!--
+            <video id="myVideo">
                 <source src="video/video.mp4" type="video/mp4">
                 <source src="video/video.ogg" type="video/ogg">
                 <track src="mockups/captions.vtt" kind="captions" srclang="en" label="English">
             </video>
+-->
         </div>
         <div class="transcript">
             <p id="hide">Playback position: <span id="position"></span></p>

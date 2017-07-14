@@ -8,7 +8,16 @@ const transcript = document.getElementById('transcript');
 const match = document.getElementById('match');
 
 
-
+// Setup JW Player
+jwplayer("player").setup({
+    file: '../video/video.mp4',
+    tracks: [
+        { file: "../mockups/captions.vtt", kind: "captions" },
+    ]
+    displaytitle: false,
+    width: 640,
+    height: 360,
+});
 
 
 
