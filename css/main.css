@@ -6,7 +6,7 @@
     margin: 8px auto;
 }
 
-.videoPlayer {
+#player {
     margin: 0 auto;
     display: block;
     width: 480px;
@@ -29,7 +29,7 @@ p {
     color: orange;
 }
 
-.captionArea {
+.transcript {
     margin: 0 auto;
     width: 480px;
 }
@@ -43,11 +43,11 @@ p {
 }
 
 @media (min-width: 768px) {
-    .videoPlayer {
+    #player {
         width: 720px;
     }
     
-    .captionArea {
+    .transcript {
         width: 720px;
     }
 }

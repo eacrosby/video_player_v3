@@ -1,3 +1,23 @@
+const captions = [];
+const caption = -1;
+const matches = [];
+const query = "";
+const cycle = -1;
+
+const transcript = document.getElementById('transcript');
+const match = document.getElementById('match');
+
+
+
+
+
+
+
+
+
+
+//************* UNUSED CODE ************//
+/*
 function myFunction() {
     //display current position of video
     document.getElementById('position').innerHTML = vid.currentTime;
@@ -10,7 +30,6 @@ var vid = document.getElementById('myVideo');
 vid.ontimeupdate = function(){myFunction()};
 
 
-/*
 
 const subtitles = document.getElementById('captionArea').getElementsByTagName('span');
 let now = video.currentTime;
@@ -25,7 +44,7 @@ video.addEventListener('timeupdate', function () {
         }
     }
 })
-*/
+
 
 function seek() {
     vid.currentTime = this.getAttribute('data-start');
@@ -41,3 +60,5 @@ track.addEventListener('load', function() {
         s.addEventListener('click', seek);
     }
 });
+
+*/
