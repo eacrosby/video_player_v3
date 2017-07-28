@@ -29,7 +29,7 @@ p {
     color: orange;
 }
 
-.transcript {
+#transcript {
     margin: 0 auto;
     width: 480px;
 }
