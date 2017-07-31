@@ -1,7 +1,8 @@
 window.onload = function() {
     // get video element
-    const video = document.getElementsByTagName("player")[0];
-    const transcript = document.getElementById("transcript");
+    const video = document.getElementsByTagName("player-container")[0];
+    const transcript = document.getElementById("transcriptBox");
+    const transText = document.getElementById("transcriptText");
     let current = -1;
     
     // register events for text clicks
